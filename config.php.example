@@ -1,0 +1,17 @@
+<?php
+
+$config = array(
+	'db' => array( 
+		'connections' => array(
+			'default' => array(
+				'database' 	=> '',
+				'user'		=> '',
+				'password'	=> '',
+				'server' 	=> 'localhost',
+				'charset'	=> 'utf8'
+			)
+		),
+		'defaultConnection' => 'default'
+	),
+	'debug'   => true,
+);
